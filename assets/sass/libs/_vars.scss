@@ -33,17 +33,22 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
+		bg:					#010a13, // darkest blue (leftmost)
+		bg-alt:				#06192b, // next darkest
+		fg:					rgba(255,255,255,0.85),
 		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
-		border:				rgba(255,255,255,0.15),
-		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		fg-light:			rgba(255,255,255,0.5),
+		border:				rgba(255,255,255,0.12),
+		border-bg:			rgba(255,255,255,0.04),
+		sidebar-bg:			#0a223a, // slightly lighter dark blue for sidebar
+		accent1:			#011627, // leftmost (very dark blue)
+		accent1-alt:		darken(#011627, 10),
+		accent2:			#022b45, // next
+		accent2-alt:		darken(#022b45, 10),
+		accent3:			#03416a, // middle
+		accent3-alt:		darken(#03416a, 10),
+		accent4:			#035397, // next
+		accent4-alt:		darken(#035397, 10),
+		accent5:			#0366c7, // rightmost (brightest blue)
+		accent5-alt:		darken(#0366c7, 10)
 	);
